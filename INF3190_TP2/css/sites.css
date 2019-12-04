@@ -1,0 +1,24 @@
+/*Contenu de la page*/
+
+#site {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#site iframe {
+    margin-top: 20px;
+}
+
+#site img {
+    width: 160px;
+    height: 110px;
+}
+
+#site h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: lightblue;
+}
