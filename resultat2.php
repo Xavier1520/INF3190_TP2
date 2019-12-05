@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link rel="stylesheet" style="text/css" href="../CSS/bootstrap.min.css">
+		<title>Syndicat des travailleurs</title>
+	</head>
 <?php
 require 'head.php';
 include 'head.php';
@@ -10,9 +18,9 @@ $database = new Medoo([
 	'server' => 'localhost',
 	'username' => 'ej591065',
 	'password' => 'DUP13015',
-	'prefix' => 'membres'
+	'prefix' => 'tp2_'
 ]);
-	
+
 if(isset($_REQUEST["soumettre"]))
 {
 	$prenom=$_REQUEST["prenom"];
@@ -32,3 +40,4 @@ if(isset($_REQUEST["soumettre"]))
 }
 require 'tail.php'
 ?>
+</html>
