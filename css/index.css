@@ -98,3 +98,12 @@ h3 {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+
+#nouveau {
+	max-height: 180px;
+	max-width: 100%;
+	margin: 0 auto;
+	height: auto;
+	width: auto;
+	display: block:
+}
