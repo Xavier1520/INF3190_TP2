@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-		<link rel="stylesheet" style="text/css" href="../CSS/bootstrap.min.css">
+		<link rel="stylesheet" style="text/css" href="../css/bootstrap.min.css">
 		<title>Syndicat des travailleurs</title>
 	</head>
 <?php
-require 'header.php';
-require 'config.php';
+require 'lib/header.php';
+require 'lib/config.php';
 class Formulaire {
 	public function afficherForm() {
 		global $database;
@@ -47,6 +47,6 @@ class Formulaire {
 }
 $manifestation = new Formulaire();
 $manifestation->afficherForm();
-require 'footer.php';
+require 'lib/footer.php';
 ?>
 </html>
