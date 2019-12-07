@@ -16,6 +16,9 @@
             <div class="col-sm">
                 <a href="publications.php">Publications</a>
             </div>
+	    <div class="col-sm">
+                <a href="../xml/historique.xml">Historique</a>
+            </div>
         </div>
     </div>
 </nav>

@@ -1,0 +1,90 @@
+{
+  "name": "jstree",
+  "title": "jsTree",
+  "description": "jQuery tree plugin",
+  "version": "3.3.7",
+  "homepage": "http://jstree.com",
+  "main": "./dist/jstree.js",
+  "author": {
+    "name": "Ivan Bozhanov",
+    "email": "jstree@jstree.com",
+    "url": "http://vakata.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vakata/jstree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vakata/jstree/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vakata/jstree/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "dox": "~0.9.0",
+    "grunt": "~1.0.0",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-imagemin": "~2.0.1",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "~1.4.1",
+    "grunt-contrib-qunit": "~2.0.0",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-resemble-cli": "0.0.8",
+    "grunt-text-replace": "~0.4.0",
+    "lodash": "^4.17.10"
+  },
+  "dependencies": {
+    "jquery": ">=1.9.1"
+  },
+  "npmName": "jstree",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "jstree.min.js",
+        "themes/**/*.png",
+        "themes/**/*.gif",
+        "themes/**/*.min.css"
+      ]
+    }
+  ],
+  "gitHead": "bc5187e5826244dee5ebdc0e9db2e2652fefe928",
+  "_id": "jstree@3.3.7",
+  "scripts": {},
+  "_shasum": "41df485d66148836ac389603a3e12f4574b06251",
+  "_from": "jstree@latest",
+  "_resolved": "https://registry.npmjs.org/jstree/-/jstree-3.3.7.tgz",
+  "_npmVersion": "3.8.6",
+  "_nodeVersion": "8.11.2",
+  "_npmUser": {
+    "name": "vakata",
+    "email": "npm@vakata.com"
+  },
+  "dist": {
+    "shasum": "41df485d66148836ac389603a3e12f4574b06251",
+    "tarball": "https://registry.npmjs.org/jstree/-/jstree-3.3.7.tgz",
+    "integrity": "sha512-yzzalO1TbZ4HdPezO43LesGI4Wv2sB0Nl+4GfwO0YYvehGws5qtTAhlBISxfur9phMLwCtf9GjHlRx2ZLXyRnw==",
+    "fileCount": 68,
+    "unpackedSize": 1222987,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb4gTGCRA9TVsSAnZWagAAXUcP/2ApYnWh/DMgWcMLomji\n1TeEIXLErIXR2BCUD3QFt0Mcmrktpe87ZrFMOJmpJVJ/FpFGJInfSwh4nCjc\nw6e5VpiViFtOdbubpjN0sZu0G6g7ksCa2Zri+vXZJh0U4jMqQ+4Yrujkexmf\nb7Mt/qLTyhxVi1Z4wDXWshlAU1qBON1lVoGiaxTVkqQPb4OLrbqK5S1vTiab\nzRztRkyCpUkAJq1iSfI0tjswZs14NFUMqMhh5fXZyAR9ItZLCa29cv6cgI/L\npPSI6bW6tHOxk+juMwth0zrtWhaUxpPrtV3osDmkk3KOBhWlEq3t7EgEtdgk\nyArLxCsVNWMScFhj9CjETriPwhRAU3IWqGqNqhZ6QPsoqSVzxVHgzXjNSZOe\nDT9a0fQgwHmCUrPPi9TdCQ7JMnr/Jy9Jl57Iyu0y6AEqMPe42C+d4bCRUIZU\n9ll+qtyeubgX/QhkyBYb4NnpdnvVwsNigxTcA0qtaAYQ6sYykaqsEdeHtpYh\n0w/08s0I93XzF8+HYmSQ9VRVpdTvRDGLhvK0W92YrhxOLA7w/EzGosZOQSd7\nmzUDQescky5z+OGRWURaUYWBjmPlt4Er5zMUt4ymjrMXLfbA/k3CzaFtWvPD\n1RxtZgCHnCsifNG1dXPmN76JmjoevPMdPoKX/bOEH5cuGyBxcno0Q4zEXe5F\nlnRz\r\n=yUaP\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "vakata",
+      "email": "npm@vakata.com"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/jstree_3.3.7_1541539013783_0.8071360007046977"
+  },
+  "_hasShrinkwrap": false
+}
