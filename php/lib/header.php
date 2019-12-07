@@ -1,8 +1,8 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-sm" id="logo">
-                <a href="../index.html"><img src="../images/shield.png" alt="logo" title="logo" /></a>
+            <div class="col-sm">
+                <a href="../index.html"><img id="shield" src="../images/shield.png" alt="logo" title="logo" /></a>
             </div>
         </div>
         <div class="row">

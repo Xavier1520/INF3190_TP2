@@ -11,7 +11,7 @@ header {
 	padding-bottom: 10px;
 }
 
-#logo img {
+#shield {
 	width: 180px;
 	height: 210px;
 }
@@ -54,6 +54,15 @@ h3 {
     text-align: center;
 }
 /*Contenu spécifique de la page*/
+
+#dollar {
+    width: 160px;
+    height: 110px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
 
 #accueil h2 {
 	text-align: center;
