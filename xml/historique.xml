@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="../css/historique.css" ?>
+<!DOCTYPE historique [
+<!ELEMENT historique (greve*)>
+<!ELEMENT greve (datedebut,datefin,cause?)>
+<!ELEMENT datedebut (#PCDATA)>
+<!ELEMENT datefin (#PCDATA)>
+<!ELEMENT cause (#PCDATA)>
+]>
+<historique>
+	<greve>
+		<datedebut>2019-10-14</datedebut>
+		<datefin>2019-10-21<datefin>
+		<cause>Salaires</cause>
+	</greve>
+	<greve>
+		<datedebut>2019-11-04</datedebut>
+                <datefin>2019-11-11<datefin>
+                <cause>Charge de travail</cause>
+	</greve>
+	<greve>
+		<datedebut>2019-12-09</datedebut>
+                <datefin>2019-12-16<datefin>
+                <cause>Conditions de travail</cause>
+	</greve>
+</historique>

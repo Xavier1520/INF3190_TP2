@@ -1,0 +1,10 @@
+historique {
+position: absolute;
+background-color: lightgrey;	
+}
+
+greve {
+text-align: center;
+background-color: lightblue;
+display: block;
+}
