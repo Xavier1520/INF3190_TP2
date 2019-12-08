@@ -11,30 +11,24 @@
 require 'lib/header.php';
 require 'lib/nav.php';
 require 'lib/config.php';
-class Membres {
-	public function enregistrerForm() {
-		global $database;
-		if(isset($_REQUEST["soumettre"]))
-		{
-			$prenom=$_REQUEST["prenom"];
-			$nom=$_REQUEST["nom"];
-			$datenaissance=$_REQUEST["datenaissance"];
-			$fichier=$_FILES["photo"];
-			$photo=$fichier['name'];
-			$fonction=$_REQUEST["fonction"];
-			$record=array(
-				'prenom'=>"$prenom",
-				'nom'=>"$nom",
-				'datenaissance'=>"$datenaissance",
-				'photo'=>"$photo",
-				'fonction'=>"$fonction"
-			);
-			$database->insert("membres",$record);
-		}
-	}
+if(isset($_REQUEST["soumettre"]))
+{
+	$prenom=$_REQUEST["prenom"];
+	$nom=$_REQUEST["nom"];
+	$datenaissance=$_REQUEST["datenaissance"];
+	$fichier=$_FILES["photo"];
+	$photo=$fichier['name'];
+	$fonction=$_REQUEST["fonction"];
+	$record=array(
+		'prenom'=>"$prenom",
+		'nom'=>"$nom",
+		'datenaissance'=>"$datenaissance",
+		'photo'=>"$photo",
+		'fonction'=>"$fonction"
+	);
+	$database->insert("membres",$record);
+	echo '<h2>Formulaire Soumis</h2>';
 }
-$membre = new Membres();
-$membre->enregistrerForm();
-require 'lib/footer.php'
+require 'lib/footer.php';
 ?>
 </html>

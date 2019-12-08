@@ -16,7 +16,7 @@ require 'lib/header.php';
 require 'lib/nav.php';
 ?>
 <h2>Connexion</h2>
-<form method="post" action="connexion.html">
+<form method="post" action="administration.php">
 <fieldset>
 Nom d'utilisateur: <input type="text" pattern="^[a-z]{5,8}[0-9]{2}$" required/><br />
 Mot de passe: <input type="password" pattern="^[A-Za-z0-9?*-+ ]{8,12}$" required/>

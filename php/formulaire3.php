@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-		<link rel="stylesheet" style="text/css" href="../css/bootstrap.min.css">
-		<title>Syndicat des travailleurs</title>
-	</head>
 <?php
-require 'lib/header.php';
-require 'lib/config.php';
 class Formulaire {
 	public function afficherForm() {
 		global $database;
@@ -28,7 +18,7 @@ class Formulaire {
 
 		echo "<div class='container'>";
 		echo "<h3>Manifestations</h3>";
-		echo "<form action='../php/resultat3.php' method='post'>";
+		echo "<form action='resultat3.php' method='post'>";
 		echo "<select name='lieux'>";
 		foreach ($lieux as $lieu) {
 			echo "<option value='".$lieu["id"]."'>".$lieu["id"]."</option>";
@@ -40,13 +30,11 @@ class Formulaire {
 		}
 		echo "</select><br />"
 		echo "Date: <input name='date' type='date' /><br />";
-		echo "<input type='submit' value='Soumettre' name='soumettre' />"
+		echo "<input type='submit' value='Soumettre' name='soumettre' /><br />";
 		echo "</form>";
 		echo "</div>";
 	}
 }
 $manifestation = new Formulaire();
 $manifestation->afficherForm();
-require 'lib/footer.php';
 ?>
-</html>

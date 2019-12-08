@@ -11,25 +11,19 @@
 require 'lib/header.php';
 require 'lib/nav.php';
 require 'lib/config.php';
-class Manifestations {
-	public function enregistrerForm() {
-		global $database;
-		if(isset($_REQUEST["soumettre"]))
-		{
-			$lieux = $_REQUEST["lieux"];
-			$membre = $_REQUEST["membre"];
-			$date = $_REQUEST["date"];
-			$record=array(
-				'lieux'=>'$lieux';
-				'membre'=>'$membres';
-				'date'=>'$date';
-			);
-			$database->insert("manifestations", $record);
-		}
-	}
+if(isset($_REQUEST["soumettre"]))
+{
+	$lieux = $_REQUEST["lieux"];
+	$membre = $_REQUEST["membre"];
+	$date = $_REQUEST["date"];
+	$record=array(
+		'lieux'=>'$lieux';
+		'membre'=>'$membres';
+		'date'=>'$date';
+	);
+	$database->insert("manifestations", $record);
+	echo '<h2>Formulaire Soumis</h2>';
 }
-$manifestation = new Manifestations();
-$manifestation->enregistrerForm();
 require 'lib/footer.php';
 ?>
 </html>

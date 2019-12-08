@@ -11,23 +11,17 @@
 require 'lib/header.php';
 require 'lib/nav.php';
 require 'lib/config.php';
-class Lieux {
-	public function enregistrerForm() {
-		global $database;
-		if(isset($_REQUEST["soumettre"]))
-		{
-			$nom=$_REQUEST["nom"];
-			$commentaire=$_REQUEST["commentaire"];
-			$record=array(
-				'nom'=>"$nom",
-				'commentaire'=>"$commentaire"
-			);
-			$database->insert("lieux",$record);
-		}
-	}
+if(isset($_REQUEST["soumettre"]))
+{
+	$nom=$_REQUEST["nom"];
+	$commentaire=$_REQUEST["commentaire"];
+	$record=array(
+		'nom'=>"$nom",
+		'commentaire'=>"$commentaire"
+	);
+	$database->insert("lieux",$record);
+	echo '<h2>Formulaire Soumis</h2>';
 }
-$lieu = new Lieux();
-$lieu->enregistrerForm();
 require 'lib/footer.php'
 ?>
 </html>
