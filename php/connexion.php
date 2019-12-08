@@ -2,13 +2,13 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8" />
-<title>Connexion</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+<title>Syndicat des travailleurs</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="../jstree/dist/themes/default/style.min.css" />
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/nav.css" />
-<script type="text/javascript" src="../js/jquery-3.3.1.min.js" />
-<script type="text/javascript" src="../js/organigramme.js" />
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../js/organigramme.js"></script>
 </head>
 <body>
 <?php
@@ -27,9 +27,10 @@ Mot de passe: <input type="password" pattern="^[A-Za-z0-9?*-+ ]{8,12}$" required
 </div>
 </form>
 <h2>Organigramme des membres du syndicat</h2>
+<div class="submitreset">
 <button id="organigramme">Afficher Organigramme</button>
-<button id="resetorg">Suprimmer organigramme</button>
-<div id="afficher"></div>
+<button id="resetorg">Suprimmer Organigramme</button>
+</div>
 </body>
 <?php require 'lib/footer.php'; ?>
 </html>

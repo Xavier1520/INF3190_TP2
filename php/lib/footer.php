@@ -17,7 +17,7 @@
                 <a href="http://www.etudier.uqam.ca/cours?sigle=INF3190" target="_blank">INF3190</a>
             </div>
 	    <div class="col-sm">
-                <a href="../logo.php">Nouveau Logo</a>
+                <a href="logo.php">Nouveau Logo</a>
             <div>
         </div>
     </div>

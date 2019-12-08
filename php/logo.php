@@ -12,11 +12,13 @@ require 'lib/header.php';
 require 'lib/nav.php';
 ?>
 <h2>Futur Logo du Syndicat</h2>
-<svg id="nouveau" width="400" height="180">
-<rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+<div id="logo" style="text-align:center;">
+<svg id="nouveau" width="150" height="150">
+<rect x="0" y="0" rx="20" ry="20" width="150" height="150"
 fill="lightblue" stroke="black" stroke-width="5"/>
-<text fill="black" font-size="24" font-family="Verdana" x="75" y="100" >Syndicat</text>
+<text fill="black" font-size="24" font-family="Verdana" x="25" y="75" >Syndicat</text>
 </svg>
+</div>
 </body>
 <?php require 'lib/footer.php'; ?>
 </html>
