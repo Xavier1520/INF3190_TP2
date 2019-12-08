@@ -28,7 +28,7 @@ class Formulaire {
 		foreach ($membres as $membre) {
 			echo "<option value='".$membre["id"]."'>".$membre["id"]."</option>";
 		}
-		echo "</select><br />"
+		echo "</select><br />";
 		echo "Date: <input name='date' type='date' /><br />";
 		echo "<input type='submit' value='Soumettre' name='soumettre' /><br />";
 		echo "</form>";

@@ -4,7 +4,7 @@
 Prénom: <input name="prenom" type="text" maxlength="25" required /><br />
 Nom: <input name="nom" type="text" maxlength="25" required /><br />
 Date de naissance: <input name="datenaissance" type="date" /><br />
-Image: <input name="photo" type="file" />
+Image: <input name="photo" type="file" /><br />
 Fonction:
 <select name="fonction" >
 <option value="CADRE">Cadre</option>
