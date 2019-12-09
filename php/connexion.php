@@ -31,6 +31,7 @@ Mot de passe: <input type="password" pattern="^[A-Za-z0-9?*-+ ]{8,12}$" required
 <button id="organigramme">Afficher Organigramme</button>
 <button id="resetorg">Suprimmer Organigramme</button>
 </div>
+<div id="afficher"></div>
 </body>
 <?php require 'lib/footer.php'; ?>
 </html>
