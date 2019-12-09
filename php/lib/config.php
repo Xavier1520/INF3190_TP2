@@ -3,9 +3,9 @@ use Medoo\Medoo;
 
 $database = new Medoo([
 	'database_type' => 'mysql',
-	'database_name' => 'inf3190',
-	'server' => 'localhost',
+	'database_name' => 'bd_ej591065',
+	'server' => 'moka.labunix.uqam.ca',
 	'username' => 'ej591065',
-	'password' => 'DUP13015',
+	'password' => 'yxZqOLSX',
 	'prefix' => 'tp2_'
 ]};
