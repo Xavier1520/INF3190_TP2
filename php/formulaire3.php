@@ -26,15 +26,17 @@ class Formulaire {
 		]);
 
 		echo "<div class='container'>";
-		echo "<h3>Manifestations</h3>";
+		echo "<h2>Manifestations</h2>";
 		echo "<form action='resultat3.php' method='post'>";
-		echo "<select name='lieux'>";
+		echo "Lieu: <select name='lieux'>";
 		foreach ($lieux as $lieu) {
+			$id = $lieu["id"];
 			echo "<option value='".$lieu["id"]."'>".$lieu["id"]."</option>";
 		}
 		echo "</select><br />";
-		echo "<select name='membre'>";
+		echo "Membre: <select name='membre'>";
 		foreach ($membres as $membre) {
+			$id = $membre["id"];
 			echo "<option value='".$membre["id"]."'>".$membre["id"]."</option>";
 		}
 		echo "</select><br />";
