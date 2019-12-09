@@ -31,13 +31,13 @@ class Formulaire {
 		echo "Lieu: <select name='lieux'>";
 		foreach ($lieux as $lieu) {
 			$id = $lieu["id"];
-			echo "<option value='".$lieu["id"]."'>".$lieu["id"]."</option>";
+			echo "<option value=".$id.">".$id."</option>";
 		}
 		echo "</select><br />";
 		echo "Membre: <select name='membre'>";
 		foreach ($membres as $membre) {
 			$id = $membre["id"];
-			echo "<option value='".$membre["id"]."'>".$membre["id"]."</option>";
+			echo "<option value=".$id.">".$id."</option>";
 		}
 		echo "</select><br />";
 		echo "Date: <input name='date' type='date' /><br />";

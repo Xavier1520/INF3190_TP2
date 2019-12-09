@@ -25,9 +25,9 @@ if(isset($_REQUEST["soumettre"]))
 	$membre = $_REQUEST["membre"];
 	$date = $_REQUEST["date"];
 	$record=array(
-		'lieux'=>'$lieux';
-		'membre'=>'$membres';
-		'date'=>'$date';
+		'lieux'=>'$lieux',
+		'membre'=>'$membres',
+		'date'=>'$date'
 	);
 	$database->insert("manifestations", $record);
 	echo '<h2>Formulaire Soumis</h2>';
