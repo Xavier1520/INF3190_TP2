@@ -1,4 +1,5 @@
 <?php
+require 'config.php';
 class Formulaire {
 	public function afficherForm() {
 		global $database;

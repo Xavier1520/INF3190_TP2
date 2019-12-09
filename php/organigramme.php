@@ -1,5 +1,5 @@
 <?php
-require 'lib/config.php';
+require 'config.php';
 $cadre = '{
 	"id": "CADRE",
 	"parent": "#",

@@ -13,7 +13,7 @@
 <?php
 require 'lib/header.php';
 require 'lib/nav.php';
-require 'lib/config.php';
+require 'config.php';
 $manifestations = $database->select("manifestations", [
 	"id",
 	"lieux",

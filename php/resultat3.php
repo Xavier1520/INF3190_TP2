@@ -10,7 +10,7 @@
 <?php
 require 'lib/header.php';
 require 'lib/nav.php';
-require 'lib/config.php';
+require 'config.php';
 if(isset($_REQUEST["soumettre"]))
 {
 	$lieux = $_REQUEST["lieux"];
