@@ -27,6 +27,7 @@ echo "<th>Nom</th>";
 echo "<th>Prenom</th>";
 echo "<th>Lieu</th>";
 echo "<th>Date</th>";
+echo "</tr>";
 echo "</thead>";
 echo "<tbody>";
 foreach ($manifestations as $manifestation) {
