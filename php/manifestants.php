@@ -12,6 +12,7 @@
 	</head>
 <?php
 require 'lib/header.php';
+require 'lib/nav.php';
 require 'lib/config.php';
 $manifestations = $database->select("manifestations", [
 	"id",

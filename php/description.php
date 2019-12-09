@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8" />
-<title>Revendications</title>
+<title>Syndicat des travailleurs</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/nav.css" />

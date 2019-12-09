@@ -28,8 +28,8 @@ Mot de passe: <input type="password" pattern="^[A-Za-z0-9?*-+ ]{8,12}$" required
 </form>
 <h2>Organigramme des membres du syndicat</h2>
 <div class="submitreset">
-<button id="organigramme">Afficher Organigramme</button>
-<button id="resetorg">Suprimmer Organigramme</button>
+<button id="organigramme">Afficher</button>
+<button id="resetorg">Suprimmer</button>
 </div>
 <div id="afficher"></div>
 </body>

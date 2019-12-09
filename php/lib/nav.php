@@ -8,7 +8,7 @@
                 <a href="negociations.php">Negociations</a>
             </div>
             <div class="col-sm">
-                <a href="revendications.php">Demands</a>
+                <a href="revendications.php">Revendications</a>
             </div>
             <div class="col-sm">
                 <a href="connexion.php">Connexion</a>
