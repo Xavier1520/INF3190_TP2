@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$.ajax({
 	url: '../php/organigramme.php',
 	datatype: 'json',
-	succes: function(json) {
+	success: function(json) {
 		alert('Succes!');
 	},
 	error: function() {
