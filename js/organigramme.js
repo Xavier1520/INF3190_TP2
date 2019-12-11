@@ -1,13 +1,20 @@
 $(document).ready(function(){
-	$.ajax({
-	url: '../php/organigramme.php',
-	datatype: 'json',
-	success: function(json) {
-		alert('Succes!');
-	},
-	error: function() {
-        	alert('Erreur: Le fichier JSON est introuvable.');
-        }
+	$('#organigramme').click(function(){
+		$('afficher'.jstree({
+			'core':{
+				'data':{
+					'url': function(node){
+					return node.id === '#'?
+					'../php/organigramme.php':
+					'../php/organigramme.php';
+					},
+					'data': function(node){
+					return{ 'id': node.id}l
+					}
+					'dataType': 'json'
+				}
+			}
+		});
 	});
 	$('#reset').click(function(){
 		$('#afficher').empty();
