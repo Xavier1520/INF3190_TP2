@@ -28,6 +28,14 @@ fieldset input {
     margin-bottom: 10px;
 }
 
+#boutons {
+    display: block;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
 /*Contenu de la page de contacts*/
 
 #contacts {

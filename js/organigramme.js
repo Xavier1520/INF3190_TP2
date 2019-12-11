@@ -1,22 +1,15 @@
 $(document).ready(function(){
-	$(#organigramme).click(function(){
-		$(#afficher).jstree({
-			'core':{
-				'data':{
-					'url': function(node) {
-					return node.id === ”#”?
-					'../js/organigramme.php':
-					'../js/organigramme.php';
-					},
-					'data': function(node) {
-						return { 'id': node.id };
-					},
-					'dataType': 'json';
-				}
-			}
-		});
+	$.ajax({
+	url: '../php/organigramme.php',
+	datatype: 'json',
+	succes: function(json) {
+		alert('Succes!');
+	},
+	error: function() {
+        	alert('Erreur: Le fichier JSON est introuvable.');
+        }
 	});
-	$(#resetorg).click(function(){
-		$(#afficher).empty();
+	$('#reset').click(function(){
+		$('#afficher').empty();
 	});
 });

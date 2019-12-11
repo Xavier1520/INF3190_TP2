@@ -8,21 +8,21 @@ $database = new Medoo([
         'username' => 'ej591065',
         'password' => 'yxZqOLSX'
 ]);
-$cadre = '{
-	"id": "CADRE",
-	"parent": "#",
-	"text": "Cadres du syndicat"
-}';
-$delegue = '{
-	"id": "DELEGUE",
-	"parent": "#",
-	"text": "Délégués syndicaux"
-}';
-$membre = '{
-	"id": "MEMBRE",
-	"parent": "#",
-	"text": "Simples membres"
-}';
+$cadre = array(
+	"id"=>"CADRE",
+	"parent"=>"#",
+	"text"=>"Cadres du syndicat"
+);
+$delegue = array(
+	"id"=>"DELEGUE",
+	"parent"=>"#",
+	"text"=>"Delegues syndicaux"
+);
+$membre = array(
+	"id"=>"MEMBRE",
+	"parent"=>"#",
+	"text"=>"Simples membres"
+);
 $membres = $database->select("membres", [
 	"id",
 	"prenom",
@@ -31,21 +31,18 @@ $membres = $database->select("membres", [
 	"photo",
 	"fonction"
 ]);
-$chaine = "";
-echo "[";
-echo $cadre.",";
-echo $delegue.",";
-echo $membre.",";
-foreach $membres as $input {
+$objet = array();
+array_push($objet, $cadre);
+array_push($objet, $delegue);
+array_push($objet, $membre);
+foreach ($membres as $input) {
 	$record = array(
 		"id"=>$input["id"],
 		"parent"=>$input["fonction"],
 		"text"=>$input["prenom"].$input["nom"],
 		"icon"=>$input["photo"]
 	);
-	$chaine .= json_encode($record).",";
+	array_push($objet, $record);
 }
-$chaine = rtrim($chaine, ',');
-echo $chaine;
-echo "]";
+echo json_encode($objet);
 ?>

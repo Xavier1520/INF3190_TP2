@@ -28,8 +28,10 @@ Mot de passe: <input type="password" pattern="^[A-Za-z0-9?*-+ ]{8,12}$" required
 </div>
 </form>
 <h2>Organigramme des membres du syndicat</h2>
+<div id="boutons">
 <button id="organigramme" class="btn btn-primary">Afficher</button>
 <button id="resetorg" class="btn btn-danger">Suprimmer</button>
+</div>
 <div id="afficher"></div>
 </body>
 <?php require 'lib/footer.php'; ?>
