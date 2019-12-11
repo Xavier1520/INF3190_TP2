@@ -26,7 +26,7 @@ if(isset($_REQUEST["soumettre"]))
 	$date = $_REQUEST["date"];
 	$record=array(
 		'lieux'=>(int)$lieux,
-		'membre'=>(int)$membres,
+		'membre'=>(int)$membre,
 		'date'=>$date
 	);
 	$database->insert("manifestations", $record);

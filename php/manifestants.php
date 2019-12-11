@@ -41,30 +41,22 @@ echo "</tr>";
 echo "</thead>";
 echo "<tbody>";
 foreach ($manifestations as $manifestation) {
-	$lieux = $database->select("lieux", [
-        	"id"=>$manifestation['lieux']
-	],[
-        	"nom",
-        	"commentaire"
-	]);
-	$membres = $database->select("membres", [
-        	"id"=>$manifestation['membre']
-	],[
-        	"prenom",
-        	"nom",
-        	"datenaissance",
-        	"photo",
-        	"fonction"
-	]);
-	$nom = $membres['nom'];
-	$prenom = $membres['prenom'];
-	$lieu = $lieux['nom'];
-	$date = $manifestation['date'];
+	$lieux = $database->select("lieux",[
+                "nom",
+        ],[
+                "id"=>$manifestation["lieux"]
+        ]);
+	$membres = $database->select("membres",[
+                "prenom",
+                "nom",
+        ],[
+                "id"=>$manifestation['membre']
+        ]);	
 	echo "<tr>";
-	echo "<td>".$nom."</td>";
-	echo "<td>".$prenom."</td>";
-	echo "<td>".$lieu."</td>";
-	echo "<td>".$date."</td>";
+	echo "<td>".$membres[0]["nom"]."</td>";
+	echo "<td>".$membres[0]["prenom"]."</td>";
+	echo "<td>".$lieux[0]["nom"]."</td>";
+	echo "<td>".$manifestation["date"]."</td>";
 	echo "</tr>";
 }
 echo "</tbody>";
