@@ -19,8 +19,8 @@ require 'lib/nav.php';
 <h2>Connexion</h2>
 <form method="post" action="administration.php">
 <fieldset>
-Nom d'utilisateur: <input type="text" pattern="^[a-z]{5,8}[0-9]{2}$" required/><br />
-Mot de passe: <input type="password" pattern="^[A-Za-z0-9?*-+ ]{8,12}$" required/>
+Nom d'utilisateur: <input type="text" required/><br />
+Mot de passe: <input type="password" required/>
 </fieldset>
 <div class="submitreset">
 <input type="submit" value="Se connecter">

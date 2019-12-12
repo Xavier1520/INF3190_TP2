@@ -24,7 +24,7 @@ if(isset($_REQUEST["soumettre"]))
 	$prenom=$_REQUEST["prenom"];
 	$nom=$_REQUEST["nom"];
 	$datenaissance=$_REQUEST["datenaissance"];
-	$photo='INF3190_TP2/images/'.$_REQUEST["photo"];
+	$photo='../images/'.$_REQUEST["photo"];
 	$fonction=$_REQUEST["fonction"];
 	$record=array(
 		'prenom'=>"$prenom",

@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('#organigramme').click(function(){
-		$('afficher'.jstree({
+		$('#afficher').jstree({
 			'core':{
 				'data':{
 					'url': function(node){
@@ -9,14 +9,14 @@ $(document).ready(function(){
 					'../php/organigramme.php';
 					},
 					'data': function(node){
-					return{ 'id': node.id}l
-					}
+					return{ 'id': node.id}
+					},
 					'dataType': 'json'
 				}
 			}
 		});
 	});
-	$('#reset').click(function(){
+	$('#resetorg').click(function(){
 		$('#afficher').empty();
 	});
 });
