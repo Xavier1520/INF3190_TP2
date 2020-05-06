@@ -1,131 +1,132 @@
 /*Contenu de la page de connexion*/
 
 fieldset {
-    text-align: center;
-    border-style: solid;
-    border-width:2px;
-    width: 50%;
-    margin: auto;
-    padding-top:10px;
-    padding-bottom: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width:2px;
+  width: 50%;
+  margin: auto;
+  padding-top:10px;
+  padding-bottom: 10px;
 }
 
 fieldset input {
-    width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .submitreset {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 .submitreset input {
-    height: 40px;
-    width: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  height: 40px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #boutons {
-    display: block;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    margin: auto;
+  display: block;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 
 #afficher {
-    display: block;
-    width: 100%;
-    margin-left: 45%;
-    margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  margin-left: 45%;
+  margin-bottom: 10px;
+}
 
 /*Contenu de la page de contacts*/
 
 #contacts {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #contacts img {
-    width: 100px;
-    height: 120px;
+  width: 100px;
+  height: 120px;
 }
 
 #contacts li {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 /*Contenu de la page de négociations*/
 
 #negociations {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #negociations img {
-    width: 320px;
-    height: 160px;
-    border-style: solid;
-    border-width: 2px;
+  width: 320px;
+  height: 160px;
+  border-style: solid;
+  border-width: 2px;
 }
 
 #negociations p {
-    text-align: justify;
+  text-align: justify;
 }
 
 #dates {
-    text-align: center;
+  text-align: center;
 }
 
 #dates li {
-    list-style-type: none;
-    font-size: large;
-    font-weight: bold;
+  list-style-type: none;
+  font-size: large;
+  font-weight: bold;
 }
 
 /*Contenu des pages de revendications*/
 
 #revendications {
-    text-align: center;
-    padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 #salaire img {
-    width: 120px;
-    height: 160px;
+  width: 120px;
+  height: 160px;
 }
 
 #charge img {
-    width:220px;
-    height: 140px;
+  width:220px;
+  height: 140px;
 }
 
 #conditions img {
-    width:220px;
-    height: 140px;
+  width:220px;
+  height: 140px;
 }
 
 #description {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #paragraphe {
-    text-align: justify;
+  text-align: justify;
 }
 
 #retour {
-    text-align: center;
-    font-size: large;
+  text-align: center;
+  font-size: large;
 }
 
 /*Contenu de la page de publication*/
 
 #publications {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #publications li {
-    text-align: center;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }

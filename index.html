@@ -1,136 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-	<meta charset="utf-8" />
-	<title>Syndicat des Travailleurs</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/animation.js"></script>
-    </head>	
-    <body>
-        <header>
-           	<div class="container">
-           		<div class="row">
-				<div class="col-sm" id="logo">
-					<a href="index.html"><img id="shield" src="images/shield.png" alt="logo" title="logo" /></a>
-                    <img id="dollar" src="images/dollar.png" alt="dollar" title="dollar" />
-				</div>
-			</div>
-           		<div class="row">
-				<div class="col-sm" id="nom">
-					<h1>Syndicat des Travailleurs</h1>
-				</div>
-			</div>
-                <div class="row" id="langue">
-			<div class="col-sm">
-				Choisir la langue:
-			</div>
-			<div class="col-sm">
-				<a href="index.html">Français</a>
-			</div>
-			<div class="col-sm">
-				<a href="php/anglais.php">Anglais</a>
-			</div>
-            	</div>
-            </div>
-        </header>	
-	<nav>
-            <div class="container">
-		<div class="row">
-			<div class="col-sm">
-				<a href="php/contacts.php">Contacts</a>
-			</div>
-			<div class="col-sm">
-				<a href="php/negociations.php">Négociations</a>
-			</div>
-			<div class="col-sm">
-				<a href="php/revendications.php">Revendications</a>
-			</div>
-			<div class="col-sm">
-				<a href="php/connexion.php">Connexion</a>
-			</div>
-			<div class="col-sm">
-				<a href="php/publications.php">Publications</a>
-			</div>
-			<div class="col-sm">
-                                <a href="xml/historique.xml">Historique</a>
-                        </div>
-		</div>
-            </div>
-	</nav>
-        <div class="container" id="accueil">
-        	<div class="row">
-        		<div class="col-sm">
-        			<h2>Page d'accueil</h2>
-        		</div>
-        	</div>
-        	<div class="row">
-        		<div class="col-sm-6" id="slogan">
-        			<img src="images/fatigue.jpg" alt="ras-le-bol" title="ras-le-bol" />
-        			<p>Mettons fin à l'abus des travailleurs!<br />
-                		Tous ensembles, rien n'est impossible.</p>
-        		</div>
-        		<div class="col-sm-6" id="resume">
-        			<h3>Résumé de la grève</h3>
-        			<p>Les employés d'une usine de portes et fenêtres sont en grève
-                		depuis la date du 9 septembre 2019. Les négociations entre les
-                		dirigeants et les membres du Syndicat des Travailleurs n'ont 
-                		toujours pas encore abouti à une entente raisonnable. 
-                		Une manifestation syndicale aura lieu le 21 octobre pour défendre
-                		les intérêts des employés. Les revendications incluent le salaire,
-                		la charge de travail et les conditions de travail des syndiqués.</p>
-        		</div>
-        	</div>
-        </div>        
-        <div class="container" id="manifestations">
-          	<div class="row">
-           		<div class="col-sm">
-           			<h3>Manifestations</h3>
-           		</div>
-           	</div>
-           	<div class="row">
-           		<div class="col-sm">
-           			<img src="images/carte_campus_couleur.png" alt="carte_campus" title="carte_campus" usemap="#campus">
-           			<map name="campus">
-               			<area shape="circle" coords="175,400,20" href="php/site_un.php">
-            			<area shape="circle" coords="390,100,20" href="php/site_deux.php">
-            		</map>
-            	</div>
-            </div>
-            <div class="row">
-            	<div class="col-sm">
-            		<p>Cette carte affiche les sites où auront lieu les manifestations
-            		syndicales. Cliquez sur les cercles pour obtenir plus de détails.</p>
-            	</div>
-		<div class="col-sm">
-                        <a href="php/manifestants.php">Table des Manifestants</a>
-                </div>
-            </div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Syndicat des Travailleurs</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/animation.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" id="logo">
+          <a href="index.html"><img id="shield" src="images/shield.png" alt="logo" title="logo" /></a>
+          <img id="dollar" src="images/dollar.png" alt="dollar" title="dollar" />
         </div>
-	</body>
-    <footer>
-        <div class="container">
-		<div class="row">
-			<div class="col-sm">
-				<p>Page développée pour INF3190 à l'UQAM</p>
-			</div>
-			<div class="col-sm">
-				<p>Auteur: Xavier Dupré</p>
-			</div>
-			<div class="col-sm">
-				<a href="mailto: dupre.xavier@courrier.uqam.ca">Courriel</a>
-			</div>
-			<div class="col-sm">
-				<a href="https://uqam.ca">UQAM</a>
-			</div>
-			<div class="col-sm">
-				<a href="http://www.etudier.uqam.ca/cours?sigle=INF3190" target="_blank">INF3190</a>
-			</div>
-			<div class="col-sm">
-				<a href="php/logo.php">Nouveau Logo</a>
-			<div>
-		</div>
-	</div>
-    </footer>
+      </div>
+      <div class="row">
+        <div class="col-sm" id="nom">
+          <h1>Syndicat des Travailleurs</h1>
+        </div>
+      </div>
+      <div class="row" id="langue">
+        <div class="col-sm">
+          Choisir la langue:
+        </div>
+        <div class="col-sm">
+          <a href="index.html">Français</a>
+        </div>
+        <div class="col-sm">
+          <a href="php/anglais.php">Anglais</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <a href="php/contacts.php">Contacts</a>
+        </div>
+        <div class="col-sm">
+          <a href="php/negociations.php">Négociations</a>
+        </div>
+        <div class="col-sm">
+          <a href="php/revendications.php">Revendications</a>
+        </div>
+        <div class="col-sm">
+          <a href="php/connexion.php">Connexion</a>
+        </div>
+        <div class="col-sm">
+          <a href="php/publications.php">Publications</a>
+        </div>
+        <div class="col-sm">
+          <a href="xml/historique.xml">Historique</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container" id="accueil">
+    <div class="row">
+      <div class="col-sm">
+        <h2>Page d'accueil</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6" id="slogan">
+        <img src="images/fatigue.jpg" alt="ras-le-bol" title="ras-le-bol" />
+        <p>Mettons fin à l'abus des travailleurs!<br />
+          Tous ensembles, rien n'est impossible.</p>
+      </div>
+      <div class="col-sm-6" id="resume">
+        <h3>Résumé de la grève</h3>
+        <p>Les employés d'une usine de portes et fenêtres sont en grève
+          depuis la date du 9 septembre 2019. Les négociations entre les
+          dirigeants et les membres du Syndicat des Travailleurs n'ont
+          toujours pas encore abouti à une entente raisonnable.
+          Une manifestation syndicale aura lieu le 21 octobre pour défendre
+          les intérêts des employés. Les revendications incluent le salaire,
+          la charge de travail et les conditions de travail des syndiqués.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="manifestations">
+    <div class="row">
+      <div class="col-sm">
+        <h3>Manifestations</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <img src="images/carte_campus_couleur.png" alt="carte_campus" title="carte_campus" usemap="#campus">
+        <map name="campus">
+          <area shape="circle" coords="175,400,20" href="php/site_un.php">
+          <area shape="circle" coords="390,100,20" href="php/site_deux.php">
+        </map>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <p>Cette carte affiche les sites où auront lieu les manifestations
+          syndicales. Cliquez sur les cercles pour obtenir plus de détails.</p>
+      </div>
+      <div class="col-sm">
+        <a href="php/manifestants.php">Table des Manifestants</a>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <p>Page développée pour INF3190 à l'UQAM</p>
+      </div>
+      <div class="col-sm">
+        <p>Auteur: Xavier Dupré</p>
+      </div>
+      <div class="col-sm">
+        <a href="mailto: dupre.xavier@courrier.uqam.ca">Courriel</a>
+      </div>
+      <div class="col-sm">
+        <a href="https://uqam.ca">UQAM</a>
+      </div>
+      <div class="col-sm">
+        <a href="http://www.etudier.uqam.ca/cours?sigle=INF3190" target="_blank">INF3190</a>
+      </div>
+      <div class="col-sm">
+        <a href="php/logo.php">Nouveau Logo</a>
+        <div>
+        </div>
+      </div>
+</footer>
+
 </html>

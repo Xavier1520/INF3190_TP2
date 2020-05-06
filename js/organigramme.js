@@ -1,9 +1,9 @@
 $(document).ready(function(){
-	$('#organigramme').click(function(){
-		$('#afficher').jstree({
+  $('#organigramme').click(function(){
+    $('#afficher').jstree({
 			'core':{
 				'data':{
-					'url': function(node){
+			  	'url': function(node){
 					return node.id === '#'?
 					'../php/organigramme.php':
 					'../php/organigramme.php';
